@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TopicLab-Home</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+
+<body>
+
+
+
+   <!---Navigation Bar---->
+
+   <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">TopicLab</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="categories.html" target="_blank">Category & Topics</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="aboutus.html" id="navbar" role="button" aria-haspopup="true" target="_blank">
+            About Us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html" target="" aria-disabled="true">Contact  Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!------Carousel------>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="3000">
+        <img src="Images/laptopimage.jpg" class="d-block w-100 img-fluid" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Work with Us</h5>
+          <p>Best Website with Wide Variety Of Topics For You</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="3000">
+        <img src="Images/working.jpg" class="d-block w-100 img-fluid" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Find The Best Topic & Start Working</h5>
+          <p>We Have Wide Variety Of Topics</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-interval="3000">
+        <img src="Images/write.jpg" class="d-block w-100 img-fluid" alt="image">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Contact Us</h5>
+          <p>Fill The Form in Contact Us To Submit Us New Topics</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+
+  <!----About Start--->
+  <div class="aboutrow" id="contactus">
+    <div class="mx-auto" style="width: 200px;">
+      <h2><strong><b>About Us</b></strong></h2>
+    </div>
+  </div>
+
+  <!---About start end---->
+  <div class="row">
+    <div class="card col-4" style="width: 18rem;">
+      <img src="Images/download.png" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title">Our History</h5>
+        <p class="card-text">Our Company Was Started in 2003 by Vicky And Ricky Bros.</p>
+        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalhistory">Click For More</a>
+      </div>
+    </div>
+    <div class="card col-4" style="width: 18rem;">
+      <img src="Images/achieve.png" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title">Our Achievements</h5>
+        <p class="card-text">
+          We Have Won 2 Awards In 2010 of Best Topic IDEA SITE.</p>
+        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalachievement">See All</a>
+      </div>
+    </div>
+    <div class="card col" style="width: 18rem;">
+      <img src="Images/teamimage.jpg" class="card-img-top" alt="image">
+      <div class="card-body">
+        <h5 class="card-title">Our Team</h5>
+        <p class="card-text">
+          Our Team Is Available For YOU 24/7.If You Find Any Difficulty Contact Us.</p>
+        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalstaff">More</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-----history modal---->
+
+
+  <div class="modal" tabindex="-1" id="modalhistory">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Our Company's History</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Our Company Was Started in 2003 by Vicky And Ricky Bros. Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Adipisci vero provident repellendus porro itaque error libero eveniet nulla debitis
+            veritatis harum alias quaerat, reprehenderit ipsa maxime quae cupiditate quas fugit!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!---Modal Achievement---->
+
+  <div class="modal" tabindex="-1" id="modalachievement">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Our Achievements</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Sr. No.</th>
+                <th scope="col">Year</th>
+                <th scope="col">No. Of Awards Awarded</th>
+                <th scope="col">Title</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>2010</td>
+                <td>2</td>
+                <td>Best Topic Website Of THE Year</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>2013</td>
+                <td>2</td>
+                <td>Most UseFull website,Best Topics website</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>2018</td>
+                <td>1</td>
+                <td>Best Topics Website Of the Year</td>
+              </tr>
+            </tbody>
+          </table>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--OurStaff Modal---->
+  <div class="modal" tabindex="-1" id="modalstaff">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us To Submit New Topics</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Our Team Is Available For YOU 24/7.If You Find Any Difficulty Contact Us.
+            Fill The Form In Contact Us to submit us New Topics.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----End Of About Us----->
+
+  <!--Contact Us Start--->
+  <div class="contactrow" id="contactus">
+    <div class="mx-auto" style="width: 200px;">
+      <h2><strong><b>Contact Us</b></strong></h2>
+    </div>
+  </div>
+
+  <!--Contact Us & Form-->
+
+  <div class="container1">
+    <form action="action_page.php">
+      <div class="row1">
+        <div class="col-25">
+          <label for="fname">First Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        </div>
+      </div>
+      <div class="row1">
+        <div class="col-25">
+          <label for="lname">Last Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        </div>
+      </div>
+      <div class="row1">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <select id="country" name="country">
+            <option>India</option>
+            <option>Sri-lanka</option>
+            <option>United States Of America</option>
+            <option>Australia</option>
+            <option>Russia</option>
+            <option>South Africa</option>
+            <option>Bangladesh</option>
+            <option>Nepal</option>
+            <option>United Kingdom</option>
+            <option>Austria</option>
+            <option>United Arab Emirates</option>
+            <option>Germany</option>
+            <option>Switzerland</option>
+            <option>Barcelona</option>
+            <option>Indonesia</option>
+          </select>
+        </div>
+      </div>
+      <div class="row1">
+        <div class="col-25">
+          <label for="subject">Subject</label>
+        </div>
+        <div class="col-75">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button type="button" class="btn btn-outline-warning">Submit</button>
+      </div>
+    </form>
+  </div>
+
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.7325830846066!2d70.78235821490819!3d22.43049218525614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959c7a3ba783351%3A0x28dc6eea8324e9d2!2sDarshan%20University!5e1!3m2!1sen!2sin!4v1629869113136!5m2!1sen!2sin"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+  <h1 style="font-size:8vw;">TopicLab</h1>
+
+
+  <hr>
+<!--Footer--->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <h4>TopicLab</h4>
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="categories.html">Categories & Topics</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="contactus.html">Submit A Topic</a></li>
+            <li><a href="#">Facing Problem</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Your Experience</h4>
+          <ul>
+            <li><a href="#">Browse</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Get Help</a></li>
+
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <footer class="endfoot">
+    <div class="endfoot">
+      <div class="row" style="height: 10vh;">
+        <div class="col-4">&copy;TopicLab-All Rights Reserved.</div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

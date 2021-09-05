@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+
+
+/*nav{
+    height: 80px;
+    background-color:#1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 100px;
+    
+}
+
+
+nav .logo{
+    font-size: 33px;
+    color: white;
+    font-weight: 600;
+    
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+
+}
+
+nav ul li{
+   margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}*/
+
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color:cyan;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover, navbar-dark .navbar-nav .nav-link.active{
+    color:cyan;
+    background: none;
+}
+.bg-dark{
+    background-color: black;
+}
+/*.navbar-light .navbar-brand {
+    color: cyan;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin:0 5px;
+}
+ nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+ }
+nav ul li a:hover,
+nav ul li a.active{
+    color: cyan;
+    background:none;
+
+
+}/*
+
+
+/*responsive
+
+@media (max-width:940px){
+    nav ul{
+        position: fixed;
+        top: 80 px;
+        left: 0;
+        
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+    
+    }
+    nav ul li{
+        margin: 40px 0;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+    nav ul li a:hover,
+    nav ul li a.active{
+        color: cyan;
+        background: none;
+     }
+    }*/
+
+
+
+.carousel-item{
+    width: 100%;
+}
+.striprow{
+    margin-bottom: 10px;
+}
+.classa,.classb,.classc,.classd{
+    width: 25%;
+    height:115px;
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.classa{
+    background-color:rgb(211, 191, 16);
+}
+
+.classb{
+    background-color: rgb(211, 191, 16);
+}
+.classc{
+    background-color: rgb(211, 191, 16);
+}
+.classd{
+    background-color: rgb(211, 191, 16);
+}
+.class2{
+    font-family: "Inter", "Open Sans", Helvetica, Arial, sans-serif;
+    color: rgb(226, 7, 7);
+    height: 120px;
+}
+.mx-auto{
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    
+}
+.aboutrow{
+    color: cyan;
+    background-color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contactrow{
+    color: cyan;
+    background-color: black;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-row{
+    margin-left: 500px;
+}
+.btn-primary{
+    margin-left: 0px;
+    margin-bottom: 0px;
+
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+
+
+
+.iframe {
+    width: 600px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none ;
+} 
+
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    display:  block;
+    transition:all 0.3s ease;
+
+}
+
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition:0.3s ease;
+}
+
+.footer-col .social-links a:hover{
+    color:#24262b;
+    background-color:#ffffff;
+}
+
+
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+.endfoot{
+    background-color: #24262b;
+    color: #ffffff;
+}
+
+.needs-validation{
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card{
+    background-color: black;
+    color: cyan;
+}
+
+
+
+.labcolor{
+    color: cyan;
+}
+
+
+
+.navbar-brand{
+    font-weight: 600;
+    font-size: 50px;
+
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  /* Style the container */
+  .container1{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .container1{
+      background-color: black;
+  }
+
+  .row1{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
